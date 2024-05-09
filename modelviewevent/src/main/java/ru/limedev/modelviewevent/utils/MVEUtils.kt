@@ -2,7 +2,7 @@ package ru.limedev.modelviewevent.utils
 
 import ru.limedev.modelviewevent.base.BaseViewEvent
 import ru.limedev.modelviewevent.base.BaseViewState
-import ru.limedev.modelviewevent.view.MVEUserInterface
+import ru.limedev.modelviewevent.ui.MVEUserInterface
 import ru.limedev.modelviewevent.viewmodel.MVEViewModel
 import ru.limedev.modelviewevent.viewmodel.MVECustomViewModel
 

@@ -1,4 +1,4 @@
-package ru.limedev.modelviewevent.view
+package ru.limedev.modelviewevent.ui
 
 import androidx.lifecycle.ViewModel
 import ru.limedev.modelviewevent.base.BaseViewEvent

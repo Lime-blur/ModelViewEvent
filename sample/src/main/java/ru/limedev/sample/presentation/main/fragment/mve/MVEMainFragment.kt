@@ -4,7 +4,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import ru.limedev.modelviewevent.view.MVEUserInterface
+import ru.limedev.modelviewevent.ui.MVEUserInterface
 import ru.limedev.sample.presentation.main.viewevent.MainViewEvent
 import ru.limedev.sample.presentation.main.viewmodel.MainViewModel
 import ru.limedev.sample.presentation.main.viewstate.MainViewState
