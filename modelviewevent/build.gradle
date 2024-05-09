@@ -49,7 +49,7 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
                 groupId = 'com.github.Lime-blur'
-                artifactId = 'modelviewevent'
+                artifactId = 'ModelViewEvent'
                 version = '1.0'
             }
         }
