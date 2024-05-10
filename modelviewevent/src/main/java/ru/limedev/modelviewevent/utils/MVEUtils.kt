@@ -7,15 +7,15 @@ import ru.limedev.modelviewevent.viewmodel.MVEViewModel
 import ru.limedev.modelviewevent.viewmodel.MVECustomViewModel
 
 /**
- * Changes the current ViewState. Use this function only if you want to change the ViewState
- * outside of [MVEViewModel] or [MVECustomViewModel].
+ * Changes the current ViewState. This is a shortened variant of calling method
+ * [MVECustomViewModel.setViewState].
  * @see BaseViewEvent
  * @see BaseViewState
  */
 fun <E: BaseViewEvent, S: BaseViewState> MVEViewModel<E>.setState(viewState: S) = setViewState(viewState)
 
 /**
- * Used to send ViewEvent to ViewModel. Use this function only if you want to send ViewEvent
- * to ViewModel outside of [MVEUserInterface].
+ * Used to send ViewEvent to ViewModel. This is a shortened variant of calling method
+ * [MVEUserInterface.triggerViewEvent].
  */
 fun <E: BaseViewEvent> MVEUserInterface<E>.triggerEvent(viewEvent: E) = triggerViewEvent(viewEvent)
