@@ -26,8 +26,8 @@ Pay attention to the implementation diagram. In order to implement the architect
 Thus, when creating a new Fragment, we do not need to create unnecessary methods for listening to ViewStates and sending ViewEvents, which pollute the current logic.
 
 The library also has utility methods:
-- `MVEViewModel.setState` — changes the current ViewState. Use this function only if you want to change the ViewState outside of [MVEViewModel](https://github.com/Lime-blur/ModelViewEvent/blob/main/modelviewevent/src/main/java/ru/limedev/modelviewevent/viewmodel/MVEViewModel.kt) or [MVECustomViewModel](https://github.com/Lime-blur/ModelViewEvent/blob/main/modelviewevent/src/main/java/ru/limedev/modelviewevent/viewmodel/MVECustomViewModel.kt)
-- `MVEUserInterface.triggerEvent` — used to send ViewEvent to ViewModel. Use this function only if you want to send ViewEvent to ViewModel outside of [MVEUserInterface](https://github.com/Lime-blur/ModelViewEvent/blob/main/modelviewevent/src/main/java/ru/limedev/modelviewevent/ui/MVEUserInterface.kt)
+- `MVEViewModel.setState` — changes the current ViewState. This is a shortened variant of calling method `MVECustomViewModel.setViewState`
+- `MVEUserInterface.triggerEvent` — used to send ViewEvent to ViewModel. This is a shortened variant of calling method `MVEUserInterface.triggerViewEvent`
 
 ## Installation
 
