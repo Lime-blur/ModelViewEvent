@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'com.github.Lime-blur'
-version = '1.0'
+version = '1.0.1'
 
 android {
     namespace 'ru.limedev.modelviewevent'
@@ -46,7 +46,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.Lime-blur'
                 artifactId = 'ModelViewEvent'
-                version = '1.0'
+                version = '1.0.1'
             }
         }
     }
